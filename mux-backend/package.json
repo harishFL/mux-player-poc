@@ -1,0 +1,19 @@
+{
+  "name": "mux-backend",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "server.js",
+  "scripts": {
+    "dev": "node --env-file=.env server.js",
+    "start": "node --env-file=.env server.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@mux/mux-node": "^12.8.1",
+    "cors": "^2.8.6",
+    "express": "^5.2.1"
+  }
+}
